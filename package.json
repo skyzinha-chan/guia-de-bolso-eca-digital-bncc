@@ -1,0 +1,22 @@
+{
+  "name": "guia-de-bolso-eca-digital-bncc",
+  "version": "1.0.0",
+  "description": "Guia de Bolso: Cultura Digital com Direitos — Projeto Prático de Tópicos Especiais II (ECA Digital + BNCC) - Licenciatura em Computação IFMS Câmpus Jardim",
+  "type": "commonjs",
+  "main": "scripts/generate_qrcodes_and_pdf.js",
+  "scripts": {
+    "start": "node scripts/generate_qrcodes_and_pdf.js",
+    "generate": "node scripts/generate_qrcodes_and_pdf.js"
+  },
+  "keywords": [
+    "ECA-Digital",
+    "BNCC",
+    "Cultura-Digital",
+    "QR-Code",
+    "Educacao-Digital",
+    "IFMS",
+    "Licenciatura-em-Computacao"
+  ],
+  "author": "Talita Mendonça Marques, Denner dos Santos Avalos, Leonardo Vinicius da Costa Gomes, João Carlos Velasquez, Adriano Hazime Rodrigues",
+  "license": "MIT"
+}
