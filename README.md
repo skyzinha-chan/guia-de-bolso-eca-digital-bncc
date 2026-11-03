@@ -32,9 +32,12 @@ Diferentemente do projeto desenvolvido em *Tópicos Especiais III* (*Feed Seguro
 ```text
 guia-de-bolso-eca-digital-bncc/
 ├── Guia_de_Bolso_Cultura_Digital_com_Direitos_QRCodes.pdf  # Cartilha Final com os 7 QR Codes vetoriais e links clicáveis
+├── Apresentacao_Guia_de_Bolso_Slides.pdf                   # Slides da Apresentação em PDF Widescreen 16:9 (10 slides)
+├── Apresentacao_Guia_de_Bolso_Slides.html                  # Slides Interativos em HTML (com roteiro embutido na tecla N)
 ├── README.md                                               # Documentação geral do repositório
+├── ROTEIRO_APRESENTACAO_SLIDES.md                          # Roteiro completo de fala slide a slide (20 min) para os 5 integrantes
 ├── ROTEIRO_QRCODES.md                                      # Mapeamento dos 7 QR Codes e roteiro de apresentação (Talita)
-├── package.json                                            # Configuração Node.js para execução do gerador
+├── package.json                                            # Configuração Node.js para execução dos geradores
 ├── qrcodes/                                                # Imagens PNG em alta resolução dos 7 QR Codes
 │   ├── 01_p1_eca_digital.png
 │   ├── 02_p4_guia_antifraude.png
@@ -49,7 +52,9 @@ guia-de-bolso-eca-digital-bncc/
 │   ├── Estrutura_Guia_de_Bolso.pdf                         # Planejamento e estrutura do Guia de Bolso (Denner)
 │   └── Cartilha_Original_Template.pdf                      # Cartilha base diagramada antes da injeção dos QR Codes (João Carlos)
 └── scripts/                                                # Automação em Node.js (zero dependências externas)
-    ├── generate_qrcodes_and_pdf.js                         # Script que gera os PNGs e atualiza o PDF vetorialmente
+    ├── generate_qrcodes_and_pdf.js                         # Script que gera os PNGs e atualiza o PDF da cartilha vetorialmente
+    ├── generate_slides.js                                  # Script que gera os slides interativos em HTML com notas do apresentador
+    ├── generate_slides_pdf.js                              # Script que gera os 10 slides em PDF 16:9 vetorial
     └── vendor/QRCode/                                      # Motor de cálculo de matrizes QR Code
 ```
 

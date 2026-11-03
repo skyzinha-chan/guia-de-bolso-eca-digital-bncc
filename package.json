@@ -5,8 +5,9 @@
   "type": "commonjs",
   "main": "scripts/generate_qrcodes_and_pdf.js",
   "scripts": {
-    "start": "node scripts/generate_qrcodes_and_pdf.js",
-    "generate": "node scripts/generate_qrcodes_and_pdf.js"
+    "start": "node scripts/generate_qrcodes_and_pdf.js && node scripts/generate_slides.js && node scripts/generate_slides_pdf.js",
+    "generate": "node scripts/generate_qrcodes_and_pdf.js",
+    "slides": "node scripts/generate_slides.js && node scripts/generate_slides_pdf.js"
   },
   "keywords": [
     "ECA-Digital",
