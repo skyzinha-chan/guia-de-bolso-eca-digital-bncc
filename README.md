@@ -34,6 +34,7 @@ guia-de-bolso-eca-digital-bncc/
 ├── Guia_de_Bolso_Cultura_Digital_com_Direitos_QRCodes.pdf  # Cartilha Final com os 7 QR Codes vetoriais e links clicáveis
 ├── Apresentacao_Guia_de_Bolso_Slides.pdf                   # Slides da Apresentação em PDF Widescreen 16:9 (10 slides)
 ├── Apresentacao_Guia_de_Bolso_Slides.html                  # Slides Interativos em HTML (com roteiro embutido na tecla N)
+├── Video_Animacao_Cartilha_3D.html                         # Animação 3D estilo vídeo curto da cartilha nas mãos abrindo/desdobrando
 ├── README.md                                               # Documentação geral do repositório
 ├── ROTEIRO_APRESENTACAO_SLIDES.md                          # Roteiro completo de fala slide a slide (20 min) para os 5 integrantes
 ├── ROTEIRO_QRCODES.md                                      # Mapeamento dos 7 QR Codes e roteiro de apresentação (Talita)
@@ -55,6 +56,7 @@ guia-de-bolso-eca-digital-bncc/
     ├── generate_qrcodes_and_pdf.js                         # Script que gera os PNGs e atualiza o PDF da cartilha vetorialmente
     ├── generate_slides.js                                  # Script que gera os slides interativos em HTML com notas do apresentador
     ├── generate_slides_pdf.js                              # Script que gera os 10 slides em PDF 16:9 vetorial
+    ├── generate_3d_video_cartilha.js                       # Script que gera a animação 3D estilo vídeo curto da cartilha abrindo
     └── vendor/QRCode/                                      # Motor de cálculo de matrizes QR Code
 ```
 

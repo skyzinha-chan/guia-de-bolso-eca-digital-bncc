@@ -5,9 +5,10 @@
   "type": "commonjs",
   "main": "scripts/generate_qrcodes_and_pdf.js",
   "scripts": {
-    "start": "node scripts/generate_qrcodes_and_pdf.js && node scripts/generate_slides.js && node scripts/generate_slides_pdf.js",
+    "start": "node scripts/generate_qrcodes_and_pdf.js && node scripts/generate_slides.js && node scripts/generate_slides_pdf.js && node scripts/generate_3d_video_cartilha.js",
     "generate": "node scripts/generate_qrcodes_and_pdf.js",
-    "slides": "node scripts/generate_slides.js && node scripts/generate_slides_pdf.js"
+    "slides": "node scripts/generate_slides.js && node scripts/generate_slides_pdf.js",
+    "video3d": "node scripts/generate_3d_video_cartilha.js"
   },
   "keywords": [
     "ECA-Digital",
